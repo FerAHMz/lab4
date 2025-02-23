@@ -123,3 +123,49 @@
 .turtle:nth-child(4) .mask-tie {
     right: -20px;
 }
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.turtle:nth-child(1) .triangle-top {
+    border-width: 30px 0 0 30px;
+    border-color: transparent transparent transparent #FF4500;
+}
+
+.turtle:nth-child(1) .triangle-bottom {
+    border-width: 30px 30px 0 0;
+    border-color: #FF4500 transparent transparent transparent;
+}
+
+.turtle:nth-child(2) .triangle-top {
+    border-width: 30px 30px 0 0;
+    border-color: transparent #FFA500 transparent transparent;
+}
+
+.turtle:nth-child(2) .triangle-bottom {
+    border-width: 30px 0 0 30px;
+    border-color: #FFA500 transparent transparent transparent;
+}
+
+.turtle:nth-child(3) .triangle-top {
+    border-width: 30px 0 0 30px;
+    border-color: transparent transparent transparent #1E90FF;
+}
+
+.turtle:nth-child(3) .triangle-bottom {
+    border-width: 30px 30px 0 0;
+    border-color: #1E90FF transparent transparent transparent;
+}
+
+.turtle:nth-child(4) .triangle-top {
+    border-width: 30px 30px 0 0;
+    border-color: transparent #800080 transparent transparent;
+}
+
+.turtle:nth-child(4) .triangle-bottom {
+    border-width: 30px 0 0 30px;
+    border-color: #800080 transparent transparent transparent;
+}
