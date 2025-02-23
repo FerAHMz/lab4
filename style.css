@@ -90,3 +90,18 @@
     border-radius: 40px 40px 0 0;
 }
 
+.turtle:nth-child(1) .mask {
+    background: #FF4500;
+}
+
+.turtle:nth-child(2) .mask {
+    background: #FFA500;
+}
+
+.turtle:nth-child(3) .mask {
+    background: #1E90FF;
+}
+
+.turtle:nth-child(4) .mask {
+    background: #800080;
+}
