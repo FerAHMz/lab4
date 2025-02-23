@@ -105,3 +105,21 @@
 .turtle:nth-child(4) .mask {
     background: #800080;
 }
+
+.mask-tie {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    top: -5px;
+}
+
+.turtle:nth-child(1) .mask-tie,
+.turtle:nth-child(3) .mask-tie {
+    left: -20px;
+}
+
+.turtle:nth-child(2) .mask-tie,
+.turtle:nth-child(4) .mask-tie {
+    right: -20px;
+}
